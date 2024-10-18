@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 15vh;
+  background-color: #ff69b4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.BoxLogo {
+  //border: solid 2px red;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  color: white;
+  h1 {
+    font-size: 1.8vw;
+  }
+}
+nav {
+  //border: solid 2px yellow;
+  width: 40%;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8vw;
+    a {
+      color: white;
+    }
+  }
+}
+//------Main-----//
+
+.sessaoSobre {
+  height: 45vh;
+  //border: solid 2px red;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  p {
+    //border: solid 2px;
+    width: 50vw;
+    font-size: 2vw;
+  }
+  img {
+    width: 25vw;
+    height: 43vh;
+  }
+}
+
+.sessaoConcientizacao {
+  height: 30vh;
+  //border: solid 2px red;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  p {
+    color: white;
+    //border: solid 2px;
+    width: 50vw;
+    display: flex;
+    font-size: 1.8vw;
+  }
+  img {
+    width: 28vw;
+  }
+}
+
+.sessaoDicas {
+  height: 40vh;
+  //border: solid 2px red;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  img {
+    width: 20vw;
+  }
+}
+footer {
+  height: 15vh;
+  //border: solid 2px red;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .icones {
+    height: 5vh;
+    width: 5vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .paragrafo {
+    color: white;
+    //border: solid 2px;
+    display: inline-block;
+    width: 60vw;
+    font-size: 2vh;
+    text-align: center;
+  }
+  .laço {
+    //border: solid 2px red;
+    height: 10vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+  }
+}

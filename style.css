@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 15vh;
+  background-color: #ff69b4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.BoxLogo {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.BoxLogo h1 {
+  font-size: 1.8vw;
+}
+
+nav {
+  width: 40%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8vw;
+}
+nav ul a {
+  color: white;
+}
+
+.sessaoSobre {
+  height: 45vh;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sessaoSobre p {
+  width: 50vw;
+  font-size: 2vw;
+}
+.sessaoSobre img {
+  width: 25vw;
+  height: 43vh;
+}
+
+.sessaoConcientizacao {
+  height: 30vh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sessaoConcientizacao p {
+  color: white;
+  width: 50vw;
+  display: flex;
+  font-size: 1.8vw;
+}
+.sessaoConcientizacao img {
+  width: 28vw;
+}
+
+.sessaoDicas {
+  height: 40vh;
+  background-color: #ffd9ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sessaoDicas img {
+  width: 20vw;
+}
+
+footer {
+  height: 15vh;
+  background-color: #ff69b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer .icones {
+  height: 5vh;
+  width: 5vw;
+  display: flex;
+  justify-content: space-around;
+}
+footer .paragrafo {
+  color: white;
+  display: inline-block;
+  width: 60vw;
+  font-size: 2vh;
+  text-align: center;
+}
+footer .laço {
+  height: 10vh;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
